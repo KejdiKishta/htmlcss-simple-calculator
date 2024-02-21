@@ -46,7 +46,6 @@ header{
 
 .number-flex, .sign-flex{
     padding: 20px;
-    margin: 5px;
     display: flex;
     flex-wrap: wrap;
 
@@ -61,7 +60,7 @@ header{
 /*columns*/
 
 .number-column{
-    flex-grow: 3;
+    flex-grow: 2;
 }
 
 .sign-column{
@@ -71,7 +70,8 @@ header{
 /*items*/
 
 .number-item{
-    width: calc(100%/3);
+    width: calc(100%/3 - 10px);
+    margin: 5px;
 }
 
 .zero{
@@ -79,5 +79,20 @@ header{
 }
 
 .sign-item{
-    height: calc(100%/5);
+    height: calc(100%/5 - 10px);
+    margin: 5px;
+}
+
+button{
+    background-color: rgb(187 187 187);
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.orange-button{
+    background-color: rgb(255 159 10);
+}
+
+.blue-button{
+    background-color: rgb(119 168 176);
 }
