@@ -11,8 +11,9 @@ img{
 
 /*containers*/
 body{
+    display: flex;
     width: 400px;
-    margin: auto;
+    flex-direction: column;
 }
 
 /*header*/
