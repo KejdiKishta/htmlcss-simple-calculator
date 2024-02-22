@@ -11,9 +11,9 @@ img{
 
 /*containers*/
 body{
-    display: flex;
+    margin: auto;
     width: 400px;
-    flex-direction: column;
+    font-family: sans-serif;
 }
 
 /*header*/
